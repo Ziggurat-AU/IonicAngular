@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>DApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button (click)="goback()" >Go Back</ion-button>
+  <iframe class= 'webPage' name= "eventsPage" [src]="openURL()" allowfullscreen>
+  </iframe>
+</ion-content>
