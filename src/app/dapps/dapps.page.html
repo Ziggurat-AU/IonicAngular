@@ -23,7 +23,7 @@
     <ion-list>
       <ion-list-header> DApps list </ion-list-header>
 
-      <ion-item type="nameofurl" (click)="dappURL('https://kovan-uniswap.netlify.app/swap')" >
+      <ion-item type="nameofurl" (click)="dappURL('https://app.uniswap.org/#/swap')" >
         <ion-avatar slot="start">
           <img src="assets/images/dapps/uniswap.png" />
         </ion-avatar>
@@ -33,7 +33,7 @@
         </ion-label>
       </ion-item>
 
-      <ion-item type="nameofurl" (click)="dappURL('https://app.sushi.com/')" >
+      <ion-item type="nameofurl" (onclick)= 'getURI($event)' (click)="dappURL('https://exchange.sushi.com/#/swap')" >
         <ion-avatar slot="start">
           <img src="assets/images/dapps/sushiswap.png" />
         </ion-avatar>

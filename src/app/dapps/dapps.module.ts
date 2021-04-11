@@ -19,4 +19,6 @@ import { dappsPageRoutingModule } from './dapps-routing.module';
   ],
   declarations: [dappsPage],
 })
-export class dappsPageModule {}
+export class dappsPageModule {
+
+}

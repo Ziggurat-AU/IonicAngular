@@ -6,6 +6,8 @@
 
 <ion-content [fullscreen]="true">
   <ion-button (click)="goback()" >Go Back</ion-button>
+  <ion-button (click)="sendMsg()" >Send</ion-button>
+  <ion-input type='text' placeholder='wc: ' (ionChange)='URI()' [(ngModel)]="uriText" ></ion-input>
   <iframe class= 'webPage' name= "eventsPage" [src]="openURL()" allowfullscreen>
   </iframe>
 </ion-content>
