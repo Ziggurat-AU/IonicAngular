@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import WalletConnect from '@walletconnect/client';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
